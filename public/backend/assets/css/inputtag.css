@@ -1,0 +1,69 @@
+/* TagsInput */
+
+.input-container {
+    border: 2px solid var(--primary-opaque);
+    border-radius: .2rem;
+
+    display: flex;
+    align-content: flex-start;
+
+    padding: .4rem;
+    margin-bottom: .4rem;
+}
+
+.tag-container {
+    border: 2px solid var(--primary-opaque);
+    border-radius: .2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    padding: .4rem;
+    overflow-x: auto;
+}
+
+
+.tag-container, 
+.input-container input, 
+.tag-container .tag {
+    background: rgba(0, 0, 0, 0.2);
+    color: var(--white);
+}
+
+.tag-container .tag {
+    margin: .4rem;
+    padding: .4rem .6rem;
+    border-bottom: .01rem solid var(--primary);
+    background: aliceblue !important;
+    font-size: 1.2rem;
+    
+    display: flex;
+    align-items: center;
+    
+    cursor: default;
+}
+
+.tag i {
+    font-size: 0.8rem;
+    font-style: normal;
+
+    margin-left: .4rem;
+
+    transform: translateY(0.08rem);
+}
+
+.close::after {
+    content: "✕";
+    height: 24px;
+    width: 24px;
+}
+
+.input-container input {
+    padding: .4rem;
+
+    font-size: 1.2rem;
+    border: 0;
+    outline: none;
+    flex: 1;
+}

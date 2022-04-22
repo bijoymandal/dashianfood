@@ -1,0 +1,139 @@
+ @media only screen and (max-width : 1280px) {
+
+ }
+ 
+
+@media only screen and (max-width : 1050px) {
+
+.social ul li a {
+    color: #000;
+    font-size: 20px;
+    background: #aeb0a5;
+    width: 38px;
+    height: 38px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    line-height: 42px;
+}
+.logo {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 5px 0;
+}
+.logo a img {
+    width: 100%;
+    height: auto;
+
+}
+.navbar-toggler {
+    padding: 15px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #f4ae06;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+}
+.menu_w .navbar {
+    padding: 0;
+    margin: 10px 0;
+}
+.book a {
+    float: right;
+    background: #f4ae06;
+    color: #fff;
+    padding: 14px 31px;
+    width: 100%;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width : 767px) {
+.logo {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 5px 0;
+}
+.logo a img {
+   width: 80%;
+    height: auto;
+}
+.slider ul li .text_w .text {
+    margin-top: 36px;
+    text-align: center;
+}
+}
+ 
+@media only screen and (max-width:480px) {
+.header-top .call {
+    float: left;
+    width: 100%;
+    margin: 0px 0 0;
+}
+.social ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.social ul li {
+    display: inline-block;
+    float: left;
+    padding: 0px 10px 0px 0px;
+}
+.reviews img {
+    margin-top: 10px;
+    width: 135px;
+    float: left;
+}
+.slider ul li .text_w .text {
+    margin-top: 8px;
+    text-align: center;
+}
+.slider ul li .text_w p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+.slider ul li .text_w h1 {
+    text-align: center;
+    color: #f4ae06;
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.slider ul li .text_w form input[type=search] {
+    padding: 10px;
+    width: 225px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 30px 0 0 30px;
+    margin-bottom: 0;
+    border-right: none;
+    color: #000;
+    background-image: url(../images/pin-grey.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+}
+.slider ul li .text_w form input[type=submit] {
+    padding: 12px 7px;
+    width: 80px;
+    background: #f4ae06;
+    border: 1px solid #000;
+    border-radius: 0px 25px 25px 0px;
+    margin-bottom: 25px;
+    border-left: none;
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+    left: -4px;
+}
+}
